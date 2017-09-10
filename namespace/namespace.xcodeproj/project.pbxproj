@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AA2FDEB21F64D9F900489627 /* namespace_example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA2FDEB11F64D9F900489627 /* namespace_example.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		AA2FDEAC1F64D9F900489627 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -41,7 +37,7 @@
 		AA2FDEA51F64D9F900489627 = {
 			isa = PBXGroup;
 			children = (
-				AA2FDEB01F64D9F900489627 /* namespace */,
+				AA2FDEB01F64D9F900489627 /* namespace_ex */,
 				AA2FDEAF1F64D9F900489627 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +50,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA2FDEB01F64D9F900489627 /* namespace */ = {
+		AA2FDEB01F64D9F900489627 /* namespace_ex */ = {
 			isa = PBXGroup;
 			children = (
 				AA2FDEB11F64D9F900489627 /* namespace_example.cpp */,
 			);
-			path = namespace;
+			path = namespace_ex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +114,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2FDEB21F64D9F900489627 /* namespace_example.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
